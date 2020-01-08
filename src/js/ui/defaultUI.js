@@ -10,6 +10,7 @@ import LayerPopup from './layerpopup';
 import ModeSwitch from './modeSwitch';
 import PopupAddLink from './popupAddLink';
 import PopupAddImage from './popupAddImage';
+import PopupAddFromMedia from './popupAddFromMedia';
 import PopupTableUtils from './popupTableUtils';
 import PopupAddTable from './popupAddTable';
 import PopupAddHeading from './popupAddHeading';
@@ -132,6 +133,7 @@ class DefaultUI {
 
     this._initPopupAddLink();
     this._initPopupAddImage();
+    this._initPopupAddFromMedia();
     this._initPopupAddTable();
     this._initPopupAddHeading();
     this._initPopupTableUtils();
@@ -210,6 +212,14 @@ class DefaultUI {
     this._popups.push(new PopupAddImage({
       $target: this.$el,
       eventManager: this._editor.eventManager
+    }));
+  }
+
+  _initPopupAddFromMedia() {
+    this._popups.push(new PopupAddFromMedia({
+      $target: this.$el,
+      eventManager: this._editor.eventManager,
+      media: this._editor.options.medialib
     }));
   }
 

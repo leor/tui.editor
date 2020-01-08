@@ -26,6 +26,9 @@ i18n.setLanguage(['en', 'en_US'], {
   'Insert CodeBlock': 'Insert codeBlock',
   'Insert table': 'Insert table',
   'Insert image': 'Insert image',
+  'Add image': 'Add image',
+  'Add image from media': 'Add image from media',
+  'Try again': 'Something wend wrong. Try again',
   'Heading': 'Heading',
   'Image URL': 'Image URL',
   'Select image file': 'Select image file',
@@ -48,5 +51,6 @@ i18n.setLanguage(['en', 'en_US'], {
   'Text color': 'Text color',
   'Auto scroll enabled': 'Auto scroll enabled',
   'Auto scroll disabled': 'Auto scroll disabled',
-  'Choose language': 'Choose language'
+  'Choose language': 'Choose language',
+  'Loading': 'Loading'
 });

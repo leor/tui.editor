@@ -118,6 +118,15 @@ class ToolbarItemFactory {
         state: ''
       });
       break;
+    case 'media':
+      toolbarItem = new ToolbarButton({
+        name: 'media',
+        className: 'tui-image',
+        event: 'openPopupAddFromMedia',
+        tooltip: i18n.get('Add image from media'),
+        state: ''
+      });
+      break;
     case 'link':
       toolbarItem = new ToolbarButton({
         name: 'link',

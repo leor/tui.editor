@@ -24,6 +24,7 @@ const eventList = [
   'changePreviewTabWrite',
   'openPopupAddLink',
   'openPopupAddImage',
+  'openPopupAddFromMedia',
   'openPopupAddTable',
   'openPopupTableUtils',
   'openHeadingSelect',

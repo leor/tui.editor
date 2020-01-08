@@ -167,13 +167,18 @@ class ToastUIEditor {
         'divider',
         'table',
         'image',
+        'media',
         'link',
         'divider',
         'code',
         'codeblock'
       ],
       hideModeSwitch: false,
-      customConvertor: null
+      customConvertor: null,
+      medialib: {
+        path: '',
+        token: null
+      }
     }, options);
 
     this.eventManager = new EventManager();
