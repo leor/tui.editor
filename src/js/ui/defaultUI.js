@@ -217,9 +217,12 @@ class DefaultUI {
 
   _initPopupAddFromMedia() {
     this._popups.push(new PopupAddFromMedia({
-      $target: this.$el,
+      $target: this._toolbar.$el,
       eventManager: this._editor.eventManager,
-      media: this._editor.options.medialib
+      media: this._editor.options.medialib,
+      css: {
+        'position': 'absolute'
+      }
     }));
   }
 

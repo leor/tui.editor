@@ -228,10 +228,10 @@
     outline: none;
 }
 .tui-editor-defaultUI button.te-ok-button {
-    background-color: #4b96e6;
+    background-color: #4b96e6 !important;
 }
 .tui-editor-defaultUI button.te-close-button {
-    background-color: #777;
+    background-color: #777 !important;
 }
 
 .tui-editor-defaultUI-toolbar {
@@ -1346,4 +1346,15 @@ only screen and (                min-resolution: 2dppx) {
 .te-loading-indicator {
     display: none;
     text-align: center;
+}
+
+.te-popup-add-media .te-button-section button {
+    float: none;
+    padding: 0 14px 0 15px;
+    width: auto;
+    height: 28px;
+}
+
+.te-popup-add-media .te-button-section button:hover {
+    border: 1px solid #fff !important;
 }

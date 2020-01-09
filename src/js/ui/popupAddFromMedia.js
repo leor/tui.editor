@@ -35,7 +35,7 @@ class PopupAddFromMedia extends LayerPopup {
     options = util.extend({
       header: true,
       title: i18n.get('Add image'),
-      className: 'te-popup-add-image tui-editor-popup',
+      className: 'te-popup-add-media tui-editor-popup',
       content: POPUP_CONTENT
     }, options);
     super(options);
